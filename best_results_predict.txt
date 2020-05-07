@@ -1,0 +1,21 @@
+ fit_data.py --file-name train-full.csv --model adaboost-tree --splitter k-fold --search random --folds 5 --iterations 100
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/model_selection/_search.py:281: UserWarning: The total space of parameters 90 is smaller than n_iter=100. Running 90 iterations. For exhaustive searches, use GridSearchCV.
+  % (grid_size, self.n_iter, grid_size), UserWarning)
+Fitting 5 folds for each of 90 candidates, totalling 450 fits
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  34 tasks      | elapsed:    3.2s
+[Parallel(n_jobs=-1)]: Done 450 out of 450 | elapsed:    6.1s finished
+Best Score: 0.4838612368024132
+Best Params: {'model__n_estimators': 100, 'model__learning_rate': 0.25, 'features__numerical__numerical-predictors-only__do_predictors': True, 'features__numerical__numerical-predictors-only__do_numerical': True, 'features__numerical__missing-values__strategy': 'mean'}
+
+
+
+CV: 0.38686868686868686 0.1262359567793647
+
+
+
+Training Labels Correct: 1.0
+Test Labels Correct: 0.9300699300699301
+classes attribute:  [0 1]
+Season 40's ALL CASTAWAYS Test Labels :  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Season 40's REMAINING NOT ON E.O.E CASTAWAYS Test Labels :  [0 0 0 0 0 0 0 0]

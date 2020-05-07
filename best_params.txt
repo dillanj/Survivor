@@ -1,0 +1,1 @@
+Best Params: {'model__n_estimators': 120, 'model__max_samples': 1.0, 'model__max_features': 1.0, 'model__bootstrap_features': True, 'model__bootstrap': False, 'features__numerical__numerical-predictors-only__do_predictors': True, 'features__numerical__numerical-predictors-only__do_numerical': True, 'features__numerical__missing-values__strategy': 'most_frequent'}
